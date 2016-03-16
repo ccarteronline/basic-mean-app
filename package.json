@@ -1,0 +1,13 @@
+{
+  "name": "base",
+  "version": "0.0.1",
+  "author": "A document",
+  "dependencies": {
+    "express": "^4.13.4",
+    "webdriver-manager": "^8.0.0"
+  },
+  "devDependencies": {
+    "karma": "^0.13.22",
+    "karma-coverage": "^0.5.5"
+  }
+}

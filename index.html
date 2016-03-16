@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="baseApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Base</title>
+        <!-- bower components and dependencies -->
+        <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+        <script src="bower_components/angular/angular.min.js" charset="utf-8"></script>
+        <script src="bower_components/angular-mocks/angular-mocks.js" charset="utf-8"></script>
+        <!-- Angular controllers and directives -->
+        <script src="js/app.js" charset="utf-8"></script>
+        <script src="js/controllers/homeCtrl.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="holder" ng-controller="homeCtrl">
+            {{hello}}
+        </div>
+    </body>
+</html>
